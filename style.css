@@ -1,0 +1,98 @@
+body {
+  margin: 0; 
+  border-top: 8px solid #9fd1d1;
+}
+
+.name {
+  font-weight: bold;
+  font-family: 'Playfair Display';
+  color: #454545;
+  font-size: 1.618em;
+  padding-right: 0.16em;
+}
+
+h2, h2 a {
+  font-family: 'Playfair Display';
+  color: #454545;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+li {
+  margin: 0.8em 0;
+  font-family: 'Playfair Display';
+  line-height: 1.2em;
+  font-weight: 400;
+  font-style: italic;
+}
+
+a {
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+  color: #148D8D;
+}
+
+h2 {
+  font-size: 5em;
+  margin: 0px 0 0 0;
+  padding: 0;
+}
+
+h2 a {
+  color: #454545;
+  text-decoration: none;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: 'Roboto';
+  font-weight: 400;
+  margin-top: 36px;
+}
+
+@media (min-width: 850px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+.body {
+  max-width: 560px;
+  color: #454545;
+}
+
+.home-page {
+  margin-top: 4.8em;
+  padding: 5px 40px 20px 20px;
+}
+
+.portfolio-page {
+  padding: 0 20px 20px 20px;
+}
+
+@media (min-width: 760px) {
+  .home-page, .portfolio-page {
+    padding-left: 8%;
+  }
+}
+
+*::selection {
+  background: #E07D77;
+  color: #fff;
+}
+
+a:hover {
+  color: #E07D77;
+}
