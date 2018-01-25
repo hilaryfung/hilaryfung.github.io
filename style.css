@@ -1,3 +1,9 @@
+.no-wrap {
+  white-space: nowrap;
+}
+
+/* homepage */
+
 body {
   margin: 0; 
   border-top: 8px solid #9fd1d1;
@@ -11,9 +17,26 @@ body {
   padding-right: 0.16em;
 }
 
+/* portfolio page */
+
 h2, h2 a {
   font-family: 'Playfair Display';
   color: #454545;
+}
+
+.initial {
+  font-size: 10em;
+  line-height: 1;
+  margin-top: -.275em;
+  margin-left: -.08em;
+}
+
+.initial a {
+  opacity: .24;
+}
+
+.initial a:hover {
+  opacity: 1;
 }
 
 ul {
@@ -44,7 +67,6 @@ a {
 }
 
 h2 {
-  font-size: 5em;
   margin: 0px 0 0 0;
   padding: 0;
 }
@@ -69,7 +91,7 @@ h3 {
 }
 
 .body {
-  max-width: 560px;
+  max-width: 520px;
   color: #454545;
 }
 
